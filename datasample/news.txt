@@ -1,0 +1,13 @@
+const News = {
+    _id: ObjectId,
+    title: String,
+    slug: String,
+    shortDesc: String,
+    content: String,
+    thumbnail: String,
+    createdAt: Date,
+    updatedAt: Date,
+    isPublish: true, //false, chế độ công khai hoặc ẩn
+    isDelete: false, //soft delete
+    isHot: true, // Đánh dấu bài viết nổi bật
+};

@@ -1,0 +1,10 @@
+interface Staff {
+    _id: ObjectId;
+    name: string;
+    email: string;
+    password: string;
+    phone: string;
+    isActive: boolean; 
+    role: string; // Vai trò của nhân viên (Admin, Manager)
+    permissions: string[]; // Mảng quyền truy cập cụ thể
+}

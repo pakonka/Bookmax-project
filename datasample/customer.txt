@@ -1,0 +1,13 @@
+Customer = {
+    _id: ObjectId; 
+    name: string; 
+    email: string;
+    password: string; 
+    phone: string; 
+    address: {
+        street: string; 
+        city: string; 
+        postalCode: string; // Mã bưu chính
+    };
+    isActive: boolean; 
+}

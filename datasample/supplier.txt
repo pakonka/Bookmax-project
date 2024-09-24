@@ -1,0 +1,5 @@
+interface Supplier {
+     _id: string;
+    suppier_name: string;
+    description: string; 
+ }

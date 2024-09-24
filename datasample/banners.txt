@@ -1,0 +1,9 @@
+interface Banner  {
+    _id: ObjectId,
+    title: String,
+    link: String,
+    image: String,
+    isActive: Boolean,
+    startDate: Date,
+    endDate: Date
+}

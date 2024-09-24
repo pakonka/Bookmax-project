@@ -1,0 +1,7 @@
+const Category = {
+    _id: ObjectId,
+    category_name: String,
+    slug: String,
+    description: String, 
+    banner: ObjectId, // link banner cho danh mục
+};
