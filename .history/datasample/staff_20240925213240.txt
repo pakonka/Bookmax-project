@@ -1,6 +1,6 @@
 interface Staff {
     _id: ObjectId;
-    staff_name: string;
+    name: string;
     email: string;
     password: string;
     phone: string;
