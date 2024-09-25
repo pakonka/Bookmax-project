@@ -1,0 +1,7 @@
+interface Comment {
+    id: number;                  // ID của bình luận
+    newsId: number;              // ID của bài viết tin tức mà bình luận thuộc về
+    customerId: string;              // Tên người bình luận
+    content: string;             // Nội dung bình luận
+    replies?: Comment[];         // Danh sách các bình luận trả lời (tùy chọn)
+}

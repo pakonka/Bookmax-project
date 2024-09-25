@@ -1,0 +1,8 @@
+interface Author {
+    id: number;                  // ID của tác giả
+    name: string;                // Tên tác giả
+    birthDate: Date;             // Ngày sinh
+    nationality: string;         // Quốc tịch
+    books: string[];             // Danh sách sách đã xuất bản
+    website?: string;            // Website cá nhân (tùy chọn)
+}
