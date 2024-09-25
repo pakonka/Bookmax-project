@@ -1,5 +1,6 @@
  OrderItem = {
     _id: ObjectId; //productId
+    product: string;
     quantity: number; 
     price: number; 
     discount: number;  
