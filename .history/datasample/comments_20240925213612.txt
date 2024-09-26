@@ -1,6 +1,0 @@
-interface Comment {
-    _id: ObjectId;                  // ID của bình luận
-    newsId: number;              // ID của bài viết tin tức mà bình luận thuộc về
-    customerId: string;              // Tên người bình luận
-    content: string;             // Nội dung bình luận
-}

@@ -1,9 +1,0 @@
-interface ReviewOrders {
-    _id: ObjectId,
-    productId: ObjectId,
-    customerId: ObjectId,
-    rating: Number, // từ 1 đến 5
-    comment: String,
-    createdAt: Date,
-    isApproved: Boolean // trạng thái phê duyệt
-};
