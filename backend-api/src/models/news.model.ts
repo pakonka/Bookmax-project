@@ -34,10 +34,6 @@ const newsSchema = new Schema(
       type: String,
       required: false,
     },
-    updatedAt: {
-      type: Date,
-      default: Date.now,
-    },
     isPublish: {
       type: Boolean,
       default: true, // Chế độ công khai
